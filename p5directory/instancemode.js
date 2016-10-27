@@ -38,8 +38,8 @@ var sketch2 = function(p){
 
 
 function resetBackground(){
-  myp5_1.x = myp51.width/2;
-  myp5_1.y = myp51.height/2;
+  myp5_1.x = myp5_1.width/2;
+  myp5_1.y = myp5_1.height/2;
   myp5_1.background(51);
 }
 var myp5_1 = new p5(sketch1);
